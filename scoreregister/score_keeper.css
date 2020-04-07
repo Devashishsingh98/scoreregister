@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.winner{
+    color: green;
+}
+#grad{
+    text-transform: uppercase;
+    font-size: 3rem;
+    background: linear-gradient(to right, #f92740 10%, #e22bdf 13%, #4e3dbf 29%, #51dbd2 47%, #51dbd2 47%, #40d32a 64%, #b4bf1e 82%, #7db9e8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
