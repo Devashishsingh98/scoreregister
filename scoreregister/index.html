@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="score_keeper.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Score Keeper</title>
+</head>
+<body>
+    <!-- =====================Header================================ -->
+    <h1 id="grad" style="text-align: center;"> Score Register</h1>
+    <div class="container bg-light">
+        <div class="row justify-content-center border border-dark rounded bg-success">
+            <div class="col-center">
+                <h2><p class="mb-0 text-warning" style="font-family: fantasy;">PLAYING TILL: <span>5</span></p></h2>
+            </div>
+        </div>
+    <!-- =====================CONTENT================================= -->
+        <p id="note">Please enter number till you want to play :-</p>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <input type="number">
+                </div>
+            </div>
+        </div>
+    
+        <h3 style="font-size: 172px; text-align: center;"><span id="p1display">0</span>:<span id="p2display">0</span></h3>
+
+        <div class="row d-flex">
+            <div class="col-6 text-center">
+                <button id="p1" class="btn btn-danger bg-white text-danger">Player One</button>
+            </div>
+            <div class="col-6 text-center">
+                <button id="p2" class="btn btn-danger bg-white text-danger">Player two</button>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col">
+                <button id="reset" class="btn btn-info bg-warning text-danger border-danger px-5">RESET</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="score_keeper.js"></script>
+</body>
+</html>
