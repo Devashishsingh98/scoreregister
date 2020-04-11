@@ -37,6 +37,7 @@ resetbutton.addEventListener("click",function(){
 resetbutton.addEventListener("click",function(){
     p1score=0;
     p2score=0;
+    numInput.value="";
     p1display.textContent=0;
     p2display.textContent=0;
     p1display.classList.remove("winner");
